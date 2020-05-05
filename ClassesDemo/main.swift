@@ -6,7 +6,12 @@
 //  Copyright © 2020 Iurie Guzun. All rights reserved.
 //
 
-import Foundation
+let skeleton = Enemy()
 
-print("Hello, World!")
 
+let dragon = Dragon()
+dragon.wingSpan = 5
+dragon.attackStrenght = 15
+dragon.talk(speech: "My teeth are swords!" )
+dragon.move()
+dragon.attack()
